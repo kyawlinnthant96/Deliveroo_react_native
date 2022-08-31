@@ -1,6 +1,6 @@
 import {View, Text, TouchableOpacity, Image} from 'react-native';
 import React from 'react';
-import {LocationMarkerIcon, StarIcon} from 'react-native-heroicons/outline';
+import {LocationMarkerIcon, StarIcon} from 'react-native-heroicons/solid';
 import {urlFor} from '../../sanity';
 import {useNavigation} from '@react-navigation/native';
 

@@ -8,6 +8,8 @@ import {Provider} from 'react-redux';
 import HomeScreen from '../screens/Home';
 import RestaurantScreen from '../screens/Restaurant';
 import BasketScreen from '../screens/Basket';
+import PreparingOrderScreen from '../screens/PreparingOrder';
+import DeliveryScreen from '../screens/Delivery';
 
 // redux toolkit
 import {store} from '../store/store';
@@ -26,6 +28,22 @@ const AppNavigator = () => {
             component={BasketScreen}
             options={{
               presentation: 'modal',
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="PrepareOrder"
+            component={PreparingOrderScreen}
+            options={{
+              presentation: 'fullScreenModal',
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="Delivery"
+            component={DeliveryScreen}
+            options={{
+              presentation: 'fullScreenModal',
               headerShown: false,
             }}
           />

@@ -13,7 +13,7 @@ import {
   ChevronDownIcon,
   SearchIcon,
   AdjustmentsIcon,
-} from 'react-native-heroicons/outline';
+} from 'react-native-heroicons/solid';
 
 // components
 import Category from '../components/Category';

@@ -5,7 +5,7 @@ import {
   getSupportedCurrencies,
 } from 'react-native-format-currency';
 import {urlFor} from '../../sanity';
-import {MinusCircleIcon, PlusCircleIcon} from 'react-native-heroicons/outline';
+import {MinusCircleIcon, PlusCircleIcon} from 'react-native-heroicons/solid';
 import {useDispatch, useSelector} from 'react-redux';
 import {
   addToBasket,
